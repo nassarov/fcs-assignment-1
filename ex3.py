@@ -18,5 +18,7 @@ password = input("Enter password: ")
 
 if username == "admin" and password == "1234":
     print("Access granted")
+elif username == "admin" or password == "1234":
+    print("Check again your email/password")
 else:
      print("Access denied")
