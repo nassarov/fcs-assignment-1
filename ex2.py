@@ -7,8 +7,11 @@
 # Enter a number: 10
 # The number is even.
 
-num = int(input("Enter a number: "))
-if num%2 == 0:
-    print("The number is even.")
+num = input("Enter a number: ")
+if num.isdigit() : 
+    if int(num)%2 == 0:
+        print("The number is even.")
+    else:
+        print("The number is odd.")
 else:
-    print("The number is odd.")
+    print("Enter a valid num")
