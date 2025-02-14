@@ -1,0 +1,10 @@
+# 2) Exercise 2: Even or Odd Number Checker
+
+# Write a Python program that asks the user to enter a number and checks whether it is even or odd.
+# Example:
+# Enter a number: 7
+# The number is odd.
+# Enter a number: 10
+# The number is even.
+
+num = int(input("Enter a number: "))
